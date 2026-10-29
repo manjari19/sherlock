@@ -1,0 +1,29 @@
+[2026-08-14 08:01:12] INFO WeldingController: System startup complete
+[2026-08-14 08:02:03] INFO WeldingController: Job 4471 started
+[2026-08-14 08:03:44] WARN PowerSupply: Voltage fluctuation detected on channel 2
+[2026-08-14 08:05:19] ERROR InventoryService: User 10234 not found
+   at InventoryService.GetUser(Int32 userId)
+   at InventoryController.Lookup(Int32 userId)
+[2026-08-14 08:07:02] INFO WeldingController: Job 4471 completed
+[2026-08-14 08:12:55] ERROR InventoryService: User 88213 not found
+   at InventoryService.GetUser(Int32 userId)
+   at InventoryController.Lookup(Int32 userId)
+[2026-08-14 08:15:30] INFO WeldingController: Job 4472 started
+[2026-08-14 08:18:47] WARN PowerSupply: Voltage fluctuation detected on channel 2
+[2026-08-14 08:22:10] ERROR InventoryService: User 55901 not found
+   at InventoryService.GetUser(Int32 userId)
+   at InventoryController.Lookup(Int32 userId)
+[2026-08-14 08:25:00] INFO WeldingController: Job 4472 completed
+[2026-08-14 09:01:14] FATAL WeldingController: Connection to '192.168.1.44' timed out after 3000ms
+   at WeldingController.Connect(String host, Int32 timeoutMs)
+[2026-08-14 09:05:33] INFO WeldingController: Job 4473 started
+[2026-08-14 09:08:19] ERROR InventoryService: User 20044 not found
+   at InventoryService.GetUser(Int32 userId)
+   at InventoryController.Lookup(Int32 userId)
+[2026-08-14 09:12:00] WARN PowerSupply: Voltage fluctuation detected on channel 2
+[2026-08-14 09:14:47] INFO WeldingController: Job 4473 completed
+[2026-08-14 09:20:11] ERROR InventoryService: User 71355 not found
+   at InventoryService.GetUser(Int32 userId)
+   at InventoryController.Lookup(Int32 userId)
+[2026-08-14 07:55:02] ERROR CalibrationService: Sensor reading out of range: 214.7
+   at CalibrationService.Validate(Double reading)
